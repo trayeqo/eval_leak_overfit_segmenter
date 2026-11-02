@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "trayeqo-costgov_jd180"
+name = "trayeqo-eval_leak_overfit_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对成本与容量治理专家·评测集泄漏与过拟合相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://trayeqo.github.io"
-Repository = "https://github.com/trayeqo/costgov_jd180"
-Issues = "https://github.com/trayeqo/costgov_jd180/issues"
+Repository = "https://github.com/trayeqo/eval_leak_overfit_segmenter"
+Issues = "https://github.com/trayeqo/eval_leak_overfit_segmenter/issues"
 
 [project.scripts]
-costgov_jd180 = "costgov_jd180:main"
+eval_leak_overfit_segmenter = "eval_leak_overfit_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["costgov_jd180"]
+py-modules = ["eval_leak_overfit_segmenter"]
